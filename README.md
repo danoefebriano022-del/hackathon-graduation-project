@@ -7,3 +7,16 @@ Concept: Sebuah ai bot yang bisa mengidentifikasi jenis pohon yang ditanam oleh 
 Akan dimasukan ke website jika waktunya sempat.
 
 Impact: Membantu user untuk mengestimasi berapa CO2 yang bisa diserap oleh pohon yang ditanam agar bisa mengurangi/menghambat perubahan iklim. 
+
+Pustaka: 
+pipenv install ...
+- discord.py
+- numpy
+- keras
+- requests
+- tensorflow
+- Pillow
+
+Referensi: 
+
+Article: https://lestari.kompas.com/read/2023/12/20/140000086/10-pohon-dengan-kemampuan-serap-karbon-dioksida-tertinggi
