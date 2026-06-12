@@ -1,4 +1,4 @@
-## Ide Project: 
+## Project Idea: 
 Name: Tree analyzer
 
 Concept: Sebuah ai bot yang bisa mengidentifikasi jenis pohon yang ditanam oleh user dan bisa mengenali, mengestimasi jumlah CO2 yang bisa diserap, dan memberikan tips atau informasi lainya terkait menanam pohon sebagai solusi untuk penghambat perubahan iklim yang disebabkan oleh peningkatan emisi gas rumah kaca. 
