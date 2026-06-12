@@ -17,6 +17,6 @@ pipenv install ...
 - tensorflow
 - Pillow
 
-Referensi: 
+Referensi: https://github.com/danoefebriano022-del/Project-Lamps.git
 
 Article: https://lestari.kompas.com/read/2023/12/20/140000086/10-pohon-dengan-kemampuan-serap-karbon-dioksida-tertinggi
