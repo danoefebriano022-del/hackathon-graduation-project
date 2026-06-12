@@ -19,4 +19,6 @@ pipenv install ...
 
 Referensi: https://github.com/danoefebriano022-del/Project-Lamps.git
 
-Article: https://lestari.kompas.com/read/2023/12/20/140000086/10-pohon-dengan-kemampuan-serap-karbon-dioksida-tertinggi
+Article: 
+- https://lestari.kompas.com/read/2023/12/20/140000086/10-pohon-dengan-kemampuan-serap-karbon-dioksida-tertinggi
+- https://goodstats.id/article/10-pohon-dengan-penyerapan-karbon-tertinggi-IKyz0
