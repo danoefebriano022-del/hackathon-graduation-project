@@ -41,13 +41,13 @@ Pengujian dilakukan untuk memastikan bahwa proyek:
 Seluruh fitur utama dapat berjalan sesuai spesifikasi
 
 ### Checklist
-- [ ] Verifikasi gambar pohon dapat diproses dengan benar
-- [ ] Verifikasi AI dapat mengenali jenis pohon
+- [V] Verifikasi gambar pohon dapat diproses dengan benar
+- [V] Verifikasi AI dapat mengenali jenis pohon
 - [ ] Verifikasi estimasi penyerapan CO₂ ditampilkan dengan benar
 - [ ] Verifikasi informasi dan tips penanaman muncul sesuai jenis pohon
-- [ ] Verifikasi sistem dapat menangani gambar yang tidak valid
-- [ ] Verifikasi pesan kesalahan muncul apabila gambar tidak dapat dikenali
-- [ ] Verifikasi hasil prediksi ditampilkan kepada pengguna tanpa error
+- [V] Verifikasi sistem dapat menangani gambar yang tidak valid
+- [V] Verifikasi pesan kesalahan muncul apabila gambar tidak dapat dikenali
+- [V] Verifikasi hasil prediksi ditampilkan kepada pengguna tanpa error
 
 ### Prioritas
 **Tinggi**
@@ -60,8 +60,8 @@ Seluruh fitur utama dapat berjalan sesuai spesifikasi
 Bot discord dapat merespons dengan cepat dan tetap stabil
 
 ### Checklist
-- [ ] Pengguna dapat mengunggah gambar dengan mudah
-- [ ] Hasil identifikasi ditampilkan dengan jelas
+- [V] Pengguna dapat mengunggah gambar dengan mudah
+- [V] Hasil identifikasi ditampilkan dengan jelas
 - [ ] Informasi penyerapan CO₂ mudah dibaca
 
 ### Prioritas
@@ -75,10 +75,10 @@ Bot discord dapat merespons dengan cepat dan tetap stabil
 Aplikasi dapat merespons dengan cepat dan stabil.
 
 ### Checklist
-- [ ] Waktu prediksi gambar sesuai target(5-10 detik)
-- [ ] Penggunaan memori tidak berlebihan
-- [ ] Tidak terjadi crash selama penggunaan normal
-- [ ] Model AI dapat memproses gambar dengan stabil
+- [V] Waktu prediksi gambar sesuai target(5-10 detik)
+- [V] Penggunaan memori tidak berlebihan
+- [V] Tidak terjadi crash selama penggunaan normal
+- [V] Model AI dapat memproses gambar dengan stabil
 
 ### Prioritas
 **Tinggi**
