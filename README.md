@@ -25,11 +25,11 @@ Article:
 
 ## Tujuan Pengujian
 Pengujian dilakukan untuk memastikan bahwa proyek:
-- Berfungsi sesuai kebutuhan
+- Bisa mengidentifikasi jenis pohon dengan benar
+- Bisa memberikan estimasi penyerapan CO₂ berdasarkan jenis pohon yang diidentifikasi
+- Memberikan informasi dan tips yang relevan mengenai penanaman pohon
 - Memiliki antarmuka yang mudah digunakan
-- Berjalan dengan performa yang baik
-- Aman digunakan
-- Bebas dari kesalahan kritis
+- Berjalan dengan baik tanpa kesalahan yang mengganggu pengguna
 
 ---
 
@@ -38,15 +38,16 @@ Pengujian dilakukan untuk memastikan bahwa proyek:
 ## 1. Fungsionalitas
 
 ### Hasil yang Diharapkan
-Seluruh fitur utama dapat berjalan sesuai spesifikasi.
+Seluruh fitur utama dapat berjalan sesuai spesifikasi
 
 ### Checklist
-- [ ] Verifikasi pendaftaran pengguna berhasil
-- [ ] Verifikasi login pengguna berhasil
-- [ ] Verifikasi data dapat disimpan
-- [ ] Verifikasi data dapat diperbarui
-- [ ] Verifikasi data dapat dihapus
-- [ ] Verifikasi pesan kesalahan muncul saat input tidak valid
+- [ ] Verifikasi gambar pohon dapat diproses dengan benar
+- [ ] Verifikasi AI dapat mengenali jenis pohon
+- [ ] Verifikasi estimasi penyerapan CO₂ ditampilkan dengan benar
+- [ ] Verifikasi informasi dan tips penanaman muncul sesuai jenis pohon
+- [ ] Verifikasi sistem dapat menangani gambar yang tidak valid
+- [ ] Verifikasi pesan kesalahan muncul apabila gambar tidak dapat dikenali
+- [ ] Verifikasi hasil prediksi ditampilkan kepada pengguna tanpa error
 
 ### Prioritas
 **Tinggi**
@@ -56,14 +57,12 @@ Seluruh fitur utama dapat berjalan sesuai spesifikasi.
 ## 2. Antarmuka Pengguna (UI)
 
 ### Hasil yang Diharapkan
-Tampilan mudah dipahami dan seluruh elemen dapat digunakan dengan baik.
+Bot discord dapat merespons dengan cepat dan tetap stabil
 
 ### Checklist
-- [ ] Seluruh tombol dapat diklik
-- [ ] Form input dapat menerima data dengan benar
-- [ ] Navigasi antar halaman berjalan lancar
-- [ ] Tampilan responsif pada berbagai ukuran layar
-- [ ] Tidak ada elemen yang tumpang tindih
+- [ ] Pengguna dapat mengunggah gambar dengan mudah
+- [ ] Hasil identifikasi ditampilkan dengan jelas
+- [ ] Informasi penyerapan CO₂ mudah dibaca
 
 ### Prioritas
 **Sedang**
@@ -76,10 +75,10 @@ Tampilan mudah dipahami dan seluruh elemen dapat digunakan dengan baik.
 Aplikasi dapat merespons dengan cepat dan stabil.
 
 ### Checklist
-- [ ] Waktu pemuatan halaman sesuai target
+- [ ] Waktu prediksi gambar sesuai target(5-10 detik)
 - [ ] Penggunaan memori tidak berlebihan
-- [ ] Sistem tetap stabil saat banyak pengguna
-- [ ] Tidak terjadi crash saat penggunaan normal
+- [ ] Tidak terjadi crash selama penggunaan normal
+- [ ] Model AI dapat memproses gambar dengan stabil
 
 ### Prioritas
 **Tinggi**
@@ -97,6 +96,7 @@ Aplikasi dapat merespons dengan cepat dan stabil.
 ## Kesimpulan
 
 Tuliskan hasil akhir pengujian:
-- Apakah seluruh pengujian berhasil?
-- Apakah terdapat bug yang perlu diperbaiki?
-- Apakah proyek siap dirilis?
+- Apakah seluruh fitur Tree Analyzer berjalan dengan baik? Saat ini fitur Tree Analyzer masih hanya bisa menidentifikasi jenis pohon dari gambar yang di input dan belum memberi user jawaban dari estimasi jumlah CO2 yang bisa di produksi. 
+Apakah terdapat kesalahan atau bug yang perlu diperbaiki? Memakai versi tensorflow yang salah. Untuk memperbaikinya aku mengganti versi tensorflow yang bisa memperbaiki errornya. 
+Apakah tingkat akurasi model sudah memenuhi target? Sejauh ini bot bisa mengembalikan nama pohon dengan benar dengan akurasi yang tinggi.
+Apakah proyek siap untuk dipresentasikan atau dirilis? Projek belum siap dirilis karena ada beberapa fitur yang belum ditambahkan. 
