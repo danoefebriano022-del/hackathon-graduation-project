@@ -97,6 +97,6 @@ Aplikasi dapat merespons dengan cepat dan stabil.
 
 Tuliskan hasil akhir pengujian:
 - Apakah seluruh fitur Tree Analyzer berjalan dengan baik? Saat ini fitur Tree Analyzer masih hanya bisa menidentifikasi jenis pohon dari gambar yang di input dan belum memberi user jawaban dari estimasi jumlah CO2 yang bisa di produksi. 
-Apakah terdapat kesalahan atau bug yang perlu diperbaiki? Memakai versi tensorflow yang salah. Untuk memperbaikinya aku mengganti versi tensorflow yang bisa memperbaiki errornya. 
-Apakah tingkat akurasi model sudah memenuhi target? Sejauh ini bot bisa mengembalikan nama pohon dengan benar dengan akurasi yang tinggi.
-Apakah proyek siap untuk dipresentasikan atau dirilis? Projek belum siap dirilis karena ada beberapa fitur yang belum ditambahkan. 
+- Apakah terdapat kesalahan atau bug yang perlu diperbaiki? Memakai versi tensorflow yang salah. Untuk memperbaikinya aku mengganti versi tensorflow yang bisa memperbaiki errornya. 
+- Apakah tingkat akurasi model sudah memenuhi target? Sejauh ini bot bisa mengembalikan nama pohon dengan benar dengan akurasi yang tinggi.
+- Apakah proyek siap untuk dipresentasikan atau dirilis? Projek belum siap dirilis karena ada beberapa fitur yang belum ditambahkan. 
