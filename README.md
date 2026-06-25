@@ -14,7 +14,7 @@ pipenv install ...
 - numpy
 - keras
 - requests
-- tensorflow
+- tensorflow==2.12.0
 - Pillow
 
 Referensi: https://github.com/danoefebriano022-del/Project-Lamps.git
