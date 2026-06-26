@@ -43,8 +43,8 @@ Seluruh fitur utama dapat berjalan sesuai spesifikasi
 ### Checklist
 - [x] Verifikasi gambar pohon dapat diproses dengan benar
 - [x] Verifikasi AI dapat mengenali jenis pohon
-- [ ] Verifikasi estimasi penyerapan CO₂ ditampilkan dengan benar
-- [ ] Verifikasi informasi dan tips penanaman muncul sesuai jenis pohon
+- [x] Verifikasi estimasi penyerapan CO₂ ditampilkan dengan benar
+- [x] Verifikasi informasi dan tips penanaman muncul sesuai jenis pohon
 - [x] Verifikasi sistem dapat menangani gambar yang tidak valid
 - [x] Verifikasi pesan kesalahan muncul apabila gambar tidak dapat dikenali
 - [x] Verifikasi hasil prediksi ditampilkan kepada pengguna tanpa error
@@ -62,7 +62,7 @@ Bot discord dapat merespons dengan cepat dan tetap stabil
 ### Checklist
 - [x] Pengguna dapat mengunggah gambar dengan mudah
 - [x] Hasil identifikasi ditampilkan dengan jelas
-- [ ] Informasi penyerapan CO₂ mudah dibaca
+- [x] Informasi penyerapan CO₂ mudah dibaca
 
 ### Prioritas
 **Sedang**
@@ -96,7 +96,7 @@ Aplikasi dapat merespons dengan cepat dan stabil.
 ## Kesimpulan
 
 Tuliskan hasil akhir pengujian:
-- Apakah seluruh fitur Tree Analyzer berjalan dengan baik? Saat ini fitur Tree Analyzer masih hanya bisa menidentifikasi jenis pohon dari gambar yang di input dan belum memberi user jawaban dari estimasi jumlah CO2 yang bisa di produksi. 
+- Apakah seluruh fitur Tree Analyzer berjalan dengan baik? Fitur-fitur utama Tree Analyzer sudah bisa berjalan dengan baik di discord. 
 - Apakah terdapat kesalahan atau bug yang perlu diperbaiki? Memakai versi tensorflow yang salah. Untuk memperbaikinya aku mengganti versi tensorflow yang bisa memperbaiki errornya. 
-- Apakah tingkat akurasi model sudah memenuhi target? Sejauh ini bot bisa mengembalikan nama pohon dengan benar dengan akurasi yang tinggi.
-- Apakah proyek siap untuk dipresentasikan atau dirilis? Projek belum siap dirilis karena ada beberapa fitur yang belum ditambahkan. 
+- Apakah tingkat akurasi model sudah memenuhi target? Sejauh ini bot bisa mengembalikan nama pohon dengan benar dengan akurasi yang tinggi dan juga memberikan estimasi CO2 yang bisa diserap.
+- Apakah proyek siap untuk dipresentasikan atau dirilis? Projek sudah siap dirilis karena fitur utama yang ada di tujuan sudah ada.
